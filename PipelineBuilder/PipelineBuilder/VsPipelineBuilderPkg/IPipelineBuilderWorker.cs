@@ -1,6 +1,7 @@
 ﻿/// Copyright (c) Microsoft Corporation.  All rights reserved.
 using System;
-namespace PipelineBuilderPkg
+
+namespace PervasiveDigitalLLC.VsPipelineBuilderPkg
 {
     interface IPipelineBuilderWorker
     {

@@ -10,9 +10,8 @@
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>PipelineBuilder</RootNamespace>
     <AssemblyName>PipelineBuilder</AssemblyName>
-    <SignAssembly>false</SignAssembly>
-    <AssemblyOriginatorKeyFile>
-    </AssemblyOriginatorKeyFile>
+    <SignAssembly>true</SignAssembly>
+    <AssemblyOriginatorKeyFile>..\key\Key.snk</AssemblyOriginatorKeyFile>
     <SccProjectName>SAK</SccProjectName>
     <SccLocalPath>SAK</SccLocalPath>
     <SccAuxPath>SAK</SccAuxPath>
@@ -80,12 +79,6 @@
     <Compile Include="SymbolTable.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\PipelineHints\PipelineHints.csproj">
-      <Project>{52E231F2-D75D-4625-8454-EF0776E7FC00}</Project>
-      <Name>PipelineHints</Name>
-    </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
     <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
       <Visible>False</Visible>
       <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
@@ -96,6 +89,17 @@
       <ProductName>.NET Framework 3.5 SP1</ProductName>
       <Install>true</Install>
     </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\PipelineHints\PipelineHints.csproj">
+      <Project>{52e231f2-d75d-4625-8454-ef0776e7fc00}</Project>
+      <Name>PipelineHints</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\key\Key.snk">
+      <Link>Key.snk</Link>
+    </None>
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

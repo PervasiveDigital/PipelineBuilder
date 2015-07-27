@@ -4,8 +4,7 @@ using System.IO;
 using System.Collections.Generic;
 using System.Runtime.Serialization.Formatters.Binary;
 
-
-namespace PipelineBuilderPkg
+namespace PervasiveDigitalLLC.VsPipelineBuilderPkg
 {
     [Serializable]
     internal class CheckSumValidator

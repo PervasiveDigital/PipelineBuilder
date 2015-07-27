@@ -1,4 +1,4 @@
-namespace PipelineBuilderPkg
+namespace PervasiveDigitalLLC.VsPipelineBuilderPkg
 {
     partial class PipelineConfiguration
     {

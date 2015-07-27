@@ -8,7 +8,7 @@ using System.Windows.Forms;
 using EnvDTE;
 using EnvDTE80;
 
-namespace PipelineBuilderPkg
+namespace PervasiveDigitalLLC.VsPipelineBuilderPkg
 {
     public partial class PipelineConfiguration : Form
     {
@@ -65,7 +65,7 @@ namespace PipelineBuilderPkg
             t_binaryOutput.Text = "";
             t_sourceOutput.Text = "";
             Project contractProject = null;
-            foreach (Project project in Connect.GetProjectsFromSolution(root))
+            foreach (Project project in ProjectHelpers.GetProjectsFromSolution(_root))
             {
                
                 c_projects.Items.Add(project.Name);
@@ -85,7 +85,7 @@ namespace PipelineBuilderPkg
             }
             else
             {
-                object[] selectedProjects = (object[])root.ActiveSolutionProjects;
+                object[] selectedProjects = (object[])_root.ActiveSolutionProjects;
                 if (selectedProjects.Length > 0)
                 {
                     Project p = (Project)selectedProjects[0];
@@ -100,7 +100,7 @@ namespace PipelineBuilderPkg
         private void InitializeProject(Project p)
         {
             t_sourceOutput.Text = Pop(_root.Solution.FileName);
-            t_binaryOutput.Text = Pop(Pop(Connect.GetOutputAssembly(p)));
+            t_binaryOutput.Text = Pop(Pop(ProjectHelpers.GetOutputAssembly(p)));
         }
 
         public Project SourceProject
@@ -109,7 +109,7 @@ namespace PipelineBuilderPkg
             {
                 if (!String.IsNullOrEmpty(c_projects.SelectedItem.ToString()))
                 {
-                    foreach (Project project in Connect.GetProjectsFromSolution(_root))
+                    foreach (Project project in ProjectHelpers.GetProjectsFromSolution(_root))
                     {
                         if (project.Name.Equals(c_projects.SelectedItem.ToString()))
                         {
@@ -139,7 +139,7 @@ namespace PipelineBuilderPkg
 
         private string Pop(string source)
         {
-            return Connect.Pop(source);
+            return ProjectHelpers.Pop(source);
         }
        
     }
