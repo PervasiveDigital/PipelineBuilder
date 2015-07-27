@@ -9,8 +9,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PipelineBuilderProgram", "P
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PipelineHints", "PipelineHints\PipelineHints.csproj", "{52E231F2-D75D-4625-8454-EF0776E7FC00}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VSPipelineBuilderVSIX", "VSPipelineBuilderVSIX\VSPipelineBuilderVSIX.csproj", "{FDC912FA-620D-485A-AC53-259E2DD58956}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VsPipelineBuilderPkg", "VsPipelineBuilderPkg\VsPipelineBuilderPkg.csproj", "{079EF51F-7FB7-48B8-A496-1BE7404005F5}"
 EndProject
 Global
@@ -31,10 +29,6 @@ Global
 		{52E231F2-D75D-4625-8454-EF0776E7FC00}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{52E231F2-D75D-4625-8454-EF0776E7FC00}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{52E231F2-D75D-4625-8454-EF0776E7FC00}.Release|Any CPU.Build.0 = Release|Any CPU
-		{FDC912FA-620D-485A-AC53-259E2DD58956}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{FDC912FA-620D-485A-AC53-259E2DD58956}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{FDC912FA-620D-485A-AC53-259E2DD58956}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{FDC912FA-620D-485A-AC53-259E2DD58956}.Release|Any CPU.Build.0 = Release|Any CPU
 		{079EF51F-7FB7-48B8-A496-1BE7404005F5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{079EF51F-7FB7-48B8-A496-1BE7404005F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{079EF51F-7FB7-48B8-A496-1BE7404005F5}.Release|Any CPU.ActiveCfg = Release|Any CPU

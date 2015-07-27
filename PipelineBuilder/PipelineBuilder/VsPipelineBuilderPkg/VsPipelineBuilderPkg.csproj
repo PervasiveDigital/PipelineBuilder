@@ -189,6 +189,7 @@
     <Content Include="Resources\Package.ico" />
     <Content Include="Template.csproj">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
   </ItemGroup>
   <ItemGroup>
