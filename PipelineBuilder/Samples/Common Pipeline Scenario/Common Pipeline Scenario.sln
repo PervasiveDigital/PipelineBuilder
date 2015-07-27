@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Samples.Common.Contracts", "Samples.Common.Contracts\Samples.Common.Contracts.csproj", "{DE4149BF-F022-45D4-95BC-280CEC79DF8A}"
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 2
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://tfs05.codeplex.com/
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = Samples.Common.Contracts\\Samples.Common.Contracts.csproj
+		SccProjectName1 = Samples.Common.Contracts
+		SccLocalPath1 = Samples.Common.Contracts
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DE4149BF-F022-45D4-95BC-280CEC79DF8A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DE4149BF-F022-45D4-95BC-280CEC79DF8A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DE4149BF-F022-45D4-95BC-280CEC79DF8A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DE4149BF-F022-45D4-95BC-280CEC79DF8A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

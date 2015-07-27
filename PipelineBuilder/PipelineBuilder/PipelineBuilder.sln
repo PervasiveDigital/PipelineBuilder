@@ -1,0 +1,50 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PipelineBuilder", "PipelineBuilder\PipelineBuilder.csproj", "{982A41B2-0C5A-453A-9809-B86E41770D1C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PipelineBuilderProgram", "PipelineBuilderProgram\PipelineBuilderProgram.csproj", "{1A59C8DB-420A-4836-8928-8B24A841F827}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PipelineHints", "PipelineHints\PipelineHints.csproj", "{52E231F2-D75D-4625-8454-EF0776E7FC00}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VSPipelineBuilder", "VSPipelineBuilder\VSPipelineBuilder.csproj", "{BD00F495-3F49-45F2-8447-59A73FAC0AD2}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "VSPipelineBuilderSetup", "VSPipelineBuilderSetup\VSPipelineBuilderSetup.vdproj", "{67DA4377-450C-4582-8127-9E79A560B5D6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PipelineBuilderPkg", "PipelineBuilderPkg\PipelineBuilderPkg.csproj", "{54C786E5-FD14-4036-92AE-E9F25B71534B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{982A41B2-0C5A-453A-9809-B86E41770D1C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{982A41B2-0C5A-453A-9809-B86E41770D1C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{982A41B2-0C5A-453A-9809-B86E41770D1C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{982A41B2-0C5A-453A-9809-B86E41770D1C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1A59C8DB-420A-4836-8928-8B24A841F827}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1A59C8DB-420A-4836-8928-8B24A841F827}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1A59C8DB-420A-4836-8928-8B24A841F827}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1A59C8DB-420A-4836-8928-8B24A841F827}.Release|Any CPU.Build.0 = Release|Any CPU
+		{52E231F2-D75D-4625-8454-EF0776E7FC00}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{52E231F2-D75D-4625-8454-EF0776E7FC00}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{52E231F2-D75D-4625-8454-EF0776E7FC00}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{52E231F2-D75D-4625-8454-EF0776E7FC00}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BD00F495-3F49-45F2-8447-59A73FAC0AD2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BD00F495-3F49-45F2-8447-59A73FAC0AD2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BD00F495-3F49-45F2-8447-59A73FAC0AD2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BD00F495-3F49-45F2-8447-59A73FAC0AD2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{67DA4377-450C-4582-8127-9E79A560B5D6}.Debug|Any CPU.ActiveCfg = Debug
+		{67DA4377-450C-4582-8127-9E79A560B5D6}.Release|Any CPU.ActiveCfg = Release
+		{54C786E5-FD14-4036-92AE-E9F25B71534B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{54C786E5-FD14-4036-92AE-E9F25B71534B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{54C786E5-FD14-4036-92AE-E9F25B71534B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{54C786E5-FD14-4036-92AE-E9F25B71534B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

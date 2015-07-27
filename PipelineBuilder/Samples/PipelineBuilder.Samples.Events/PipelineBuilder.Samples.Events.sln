@@ -1,0 +1,65 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PipelineBuilder.Samples.Events.Contracts", "PipelineBuilder.Samples.Events.Contracts\PipelineBuilder.Samples.Events.Contracts.csproj", "{354C6213-7563-485E-8A03-38C613F8E513}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AddInSideAdapters", "AddInSideAdapters\AddInSideAdapters.csproj", "{8F850CBE-098F-419C-B45B-62553A6F2F84}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HostSideAdapters", "HostSideAdapters\HostSideAdapters.csproj", "{49BCA7B3-9700-4774-BED4-8B8448D07A64}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AddInView", "AddInView\AddInView.csproj", "{16337041-7967-452A-BCE4-91E0DDDC2E72}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HostView", "HostView\HostView.csproj", "{43BEBFE0-97CD-4216-AA05-A382975FEEA7}"
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 6
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://tfs05.codeplex.com/
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = AddInSideAdapters\\AddInSideAdapters.csproj
+		SccProjectName1 = AddInSideAdapters
+		SccLocalPath1 = AddInSideAdapters
+		SccProjectUniqueName2 = AddInView\\AddInView.csproj
+		SccProjectName2 = AddInView
+		SccLocalPath2 = AddInView
+		SccProjectUniqueName3 = HostSideAdapters\\HostSideAdapters.csproj
+		SccProjectName3 = HostSideAdapters
+		SccLocalPath3 = HostSideAdapters
+		SccProjectUniqueName4 = HostView\\HostView.csproj
+		SccProjectName4 = HostView
+		SccLocalPath4 = HostView
+		SccProjectUniqueName5 = PipelineBuilder.Samples.Events.Contracts\\PipelineBuilder.Samples.Events.Contracts.csproj
+		SccProjectName5 = PipelineBuilder.Samples.Events.Contracts
+		SccLocalPath5 = PipelineBuilder.Samples.Events.Contracts
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{354C6213-7563-485E-8A03-38C613F8E513}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{354C6213-7563-485E-8A03-38C613F8E513}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{354C6213-7563-485E-8A03-38C613F8E513}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{354C6213-7563-485E-8A03-38C613F8E513}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8F850CBE-098F-419C-B45B-62553A6F2F84}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8F850CBE-098F-419C-B45B-62553A6F2F84}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8F850CBE-098F-419C-B45B-62553A6F2F84}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8F850CBE-098F-419C-B45B-62553A6F2F84}.Release|Any CPU.Build.0 = Release|Any CPU
+		{49BCA7B3-9700-4774-BED4-8B8448D07A64}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{49BCA7B3-9700-4774-BED4-8B8448D07A64}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{49BCA7B3-9700-4774-BED4-8B8448D07A64}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{49BCA7B3-9700-4774-BED4-8B8448D07A64}.Release|Any CPU.Build.0 = Release|Any CPU
+		{16337041-7967-452A-BCE4-91E0DDDC2E72}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{16337041-7967-452A-BCE4-91E0DDDC2E72}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{16337041-7967-452A-BCE4-91E0DDDC2E72}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{16337041-7967-452A-BCE4-91E0DDDC2E72}.Release|Any CPU.Build.0 = Release|Any CPU
+		{43BEBFE0-97CD-4216-AA05-A382975FEEA7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{43BEBFE0-97CD-4216-AA05-A382975FEEA7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{43BEBFE0-97CD-4216-AA05-A382975FEEA7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{43BEBFE0-97CD-4216-AA05-A382975FEEA7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

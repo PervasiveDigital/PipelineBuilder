@@ -1,0 +1,83 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalculatorContracts", "CalculatorContracts\CalculatorContracts.csproj", "{F5AC5AB9-589E-44C7-A85D-A4055D485C1F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SampleExtensibleCalculator", "ExtensibleCalculator\SampleExtensibleCalculator.csproj", "{63870BF0-7831-4D6B-BDBC-5AB0E8B0FDA2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AddInSideAdapters", "AddInSideAdapters\AddInSideAdapters.csproj", "{E70687D9-5DF2-4BCB-BF99-67672E5CFC80}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HostSideAdapters", "HostSideAdapters\HostSideAdapters.csproj", "{0EBA6587-10E6-42DF-9185-AA2E9B8542DC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HAV", "HAV\HAV.csproj", "{52119337-0602-4FCB-B522-DCA2AB4674D8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AddInViews", "AddInViews\AddInViews.csproj", "{AAF9F4AF-D6E9-40E5-B977-291D42FE2D0C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalculatorV3AddIn", "CalculatorV3AddIn\CalculatorV3AddIn.csproj", "{C14695AF-4DAC-4278-B318-207A7C64E748}"
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 8
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://tfs05.codeplex.com/
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = AddInSideAdapters\\AddInSideAdapters.csproj
+		SccProjectName1 = AddInSideAdapters
+		SccLocalPath1 = AddInSideAdapters
+		SccProjectUniqueName2 = AddInViews\\AddInViews.csproj
+		SccProjectName2 = AddInViews
+		SccLocalPath2 = AddInViews
+		SccProjectUniqueName3 = CalculatorContracts\\CalculatorContracts.csproj
+		SccProjectName3 = CalculatorContracts
+		SccLocalPath3 = CalculatorContracts
+		SccProjectUniqueName4 = CalculatorV3AddIn\\CalculatorV3AddIn.csproj
+		SccProjectName4 = CalculatorV3AddIn
+		SccLocalPath4 = CalculatorV3AddIn
+		SccProjectUniqueName5 = ExtensibleCalculator\\SampleExtensibleCalculator.csproj
+		SccProjectName5 = ExtensibleCalculator
+		SccLocalPath5 = ExtensibleCalculator
+		SccProjectUniqueName6 = HAV\\HAV.csproj
+		SccProjectName6 = HAV
+		SccLocalPath6 = HAV
+		SccProjectUniqueName7 = HostSideAdapters\\HostSideAdapters.csproj
+		SccProjectName7 = HostSideAdapters
+		SccLocalPath7 = HostSideAdapters
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F5AC5AB9-589E-44C7-A85D-A4055D485C1F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F5AC5AB9-589E-44C7-A85D-A4055D485C1F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F5AC5AB9-589E-44C7-A85D-A4055D485C1F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F5AC5AB9-589E-44C7-A85D-A4055D485C1F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{63870BF0-7831-4D6B-BDBC-5AB0E8B0FDA2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{63870BF0-7831-4D6B-BDBC-5AB0E8B0FDA2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{63870BF0-7831-4D6B-BDBC-5AB0E8B0FDA2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{63870BF0-7831-4D6B-BDBC-5AB0E8B0FDA2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E70687D9-5DF2-4BCB-BF99-67672E5CFC80}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E70687D9-5DF2-4BCB-BF99-67672E5CFC80}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E70687D9-5DF2-4BCB-BF99-67672E5CFC80}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E70687D9-5DF2-4BCB-BF99-67672E5CFC80}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0EBA6587-10E6-42DF-9185-AA2E9B8542DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0EBA6587-10E6-42DF-9185-AA2E9B8542DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0EBA6587-10E6-42DF-9185-AA2E9B8542DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0EBA6587-10E6-42DF-9185-AA2E9B8542DC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{52119337-0602-4FCB-B522-DCA2AB4674D8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{52119337-0602-4FCB-B522-DCA2AB4674D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{52119337-0602-4FCB-B522-DCA2AB4674D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{52119337-0602-4FCB-B522-DCA2AB4674D8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AAF9F4AF-D6E9-40E5-B977-291D42FE2D0C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AAF9F4AF-D6E9-40E5-B977-291D42FE2D0C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AAF9F4AF-D6E9-40E5-B977-291D42FE2D0C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AAF9F4AF-D6E9-40E5-B977-291D42FE2D0C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C14695AF-4DAC-4278-B318-207A7C64E748}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C14695AF-4DAC-4278-B318-207A7C64E748}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C14695AF-4DAC-4278-B318-207A7C64E748}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C14695AF-4DAC-4278-B318-207A7C64E748}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

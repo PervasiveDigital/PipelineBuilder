@@ -1,0 +1,26 @@
+﻿<UserControl x:Class="GraphCalc.SceneInput3D"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" Width="226" Height="249" Background="White">
+     <Grid>
+		<StackPanel Name="Display">
+			<StackPanel Orientation="Horizontal" >
+				<TextBlock Height="20" VerticalAlignment="Top"> x(u,v)=</TextBlock>
+				<TextBox Width="150" Height="20" VerticalAlignment="Top" Name="EquationX">cos(u)sin(v)</TextBox>				
+			</StackPanel>
+			<StackPanel Orientation="Horizontal" >
+				<TextBlock Height="20" VerticalAlignment="Top"> y(u,v)=</TextBlock>
+				<TextBox Width="150" Height="20" VerticalAlignment="Top" Name="EquationY">-cos(v)</TextBox>				
+			</StackPanel>
+			<StackPanel Orientation="Horizontal" >
+				<TextBlock Height="20" VerticalAlignment="Top"> z(u,v)=</TextBlock>
+				<TextBox Width="150" Height="20" VerticalAlignment="Top" Name="EquationZ">sin(-u)sin(v)</TextBox>				
+			</StackPanel>
+			<StackPanel Orientation="Horizontal">
+				<Button Name="Sphere">Sphere</Button>
+				<Button Name="Cone">Cone</Button>
+				<Button Name="Torus">Torus</Button>
+			</StackPanel>
+			<Button Name="GraphIt" Height="20" VerticalAlignment="Top">Graph It</Button>
+		</StackPanel>
+    </Grid>
+</UserControl>

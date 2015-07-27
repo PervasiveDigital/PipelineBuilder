@@ -1,0 +1,21 @@
+﻿<UserControl x:Class="GraphCalc.SceneInput2dP"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" Width="226" Height="249" Background="White">
+    <Grid>
+		<StackPanel Name="Display">
+			<StackPanel Orientation="Horizontal" >
+				<TextBlock Height="20" VerticalAlignment="Top"> x=</TextBlock>
+				<TextBox Width="150" Height="20" VerticalAlignment="Top" Name="EquationX">4cos(t)</TextBox>				
+			</StackPanel>
+			<StackPanel Orientation="Horizontal" >
+				<TextBlock Height="20" VerticalAlignment="Top"> y=</TextBlock>
+				<TextBox Width="150" Height="20" VerticalAlignment="Top" Name="EquationY">3sin(t)</TextBox>				
+			</StackPanel>
+			<StackPanel Orientation="Horizontal">
+				<Button Name="Elipse">Elipse</Button>
+				<Button Name="Spiral">Spiral</Button>
+			</StackPanel>
+			<Button Name="GraphIt" Height="20" VerticalAlignment="Top">Graph It</Button>
+		</StackPanel>
+    </Grid>
+</UserControl>
