@@ -59,10 +59,16 @@ namespace PervasiveDigitalLLC.VsPipelineBuilderPkg
 
             VSProject2 hsa2 = (VSProject2)hsa.Object;
             VSProject2 asa2 = (VSProject2)asa.Object;
-            hsa2.References.AddProject(sourceProject).CopyLocal = false;
-            hsa2.References.Add(typeof(System.AddIn.Contract.IContract).Assembly.Location).CopyLocal = false;
+            var identity = hsa2.References.AddProject(sourceProject).CopyLocal = false;
+
+            var contractPath = typeof(System.AddIn.Contract.IContract).Assembly.Location;
+            if (hsa2.References.Find("System.Addin.Contract")==null)
+                hsa2.References.Add(contractPath).CopyLocal = false;
+
             asa2.References.AddProject(sourceProject).CopyLocal = false;
-            asa2.References.Add(typeof(System.AddIn.Contract.IContract).Assembly.Location).CopyLocal = false; ;
+            if (asa2.References.Find("System.Addin.Contract") == null)
+                asa2.References.Add(contractPath).CopyLocal = false;
+
             if (view == null)
             {
                 ProjectHelpers.AddProjectReference(hsa2, hav);
@@ -123,6 +129,8 @@ namespace PervasiveDigitalLLC.VsPipelineBuilderPkg
                         proj = p;
                     }
                 }
+
+                proj.Properties.Item("AssemblyName").Value = pipelineComponent.Name;
             }
 
             if (Directory.Exists(generatedDestPath))
